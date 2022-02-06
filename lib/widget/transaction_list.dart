@@ -37,6 +37,7 @@ class TransactionList extends StatelessWidget {
               itemCount: transactions.length,
               itemBuilder: (context, index) {
                 return Card(
+                  margin: EdgeInsets.symmetric(horizontal: 20),
                   child: Container(
                     padding: EdgeInsets.all(10),
                     child: Row(
